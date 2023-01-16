@@ -1,13 +1,12 @@
-<h1>index</h1>
 
-<% @projects.each do |project| %>
-  <%= project.name %>
-  <%= project.genre %>
-  <%= project.description%>
-  <%= link_to image_tag(project.photo_url)%>
-  <%= link_to image_tag(project.photo_url1)%>
-  <%= link_to image_tag(project.photo_url2)%>
-  <%= link_to image_tag(project.photo_url3)%>
-  <%= link_to image_tag(project.photo_url4)%>
-
-<% end %>
+<div class="container-projects">
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+    <% @projects.each do |project| %>
+      <div class="col">
+        <div class="card">
+          <%= link_to image_tag(project.photo_url, :class=>"project-image")%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
