@@ -1,6 +1,16 @@
+.icon i{
+  font-size: 30px;
+  color: #f38458;
+}
+.icon i:hover{
+  color: #e46939;
+  transition: 0.2s;
+}
+
+
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background:#b7efd1;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +19,8 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.nav-link{
+  color: #5ba980;
 }
