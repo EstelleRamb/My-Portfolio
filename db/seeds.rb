@@ -6,6 +6,13 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+puts "destroy all projects"
+Project.destroy_all
+puts "done"
+
+
+puts "create projects"
+
 Project.create!(
   name: 'Le théâtre de la Colinne',
   genre: 'graphism',
@@ -22,3 +29,5 @@ Project.create!(
   photo_url3: 'https://static.wixstatic.com/media/cd8c02_861ce683371e4aaab28dc888a8e922ab.jpg/v1/fill/w_854,h_1160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cd8c02_861ce683371e4aaab28dc888a8e922ab.jpg',
   photo_url4: 'https://static.wixstatic.com/media/cd8c02_861ce683371e4aaab28dc888a8e922ab.jpg/v1/fill/w_854,h_1160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cd8c02_861ce683371e4aaab28dc888a8e922ab.jpg',
 )
+
+puts "all done"
