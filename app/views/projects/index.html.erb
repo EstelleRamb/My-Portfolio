@@ -3,8 +3,8 @@
   <div class="row row-cols-1 row-cols-md-3 g-3">
     <% @projects.each do |project| %>
       <div class="col">
-        <div class="card">
-          <%= link_to image_tag(project.photo_url, :class=>"project-image"), project%>
+        <div class="card shadow">
+          <%= link_to image_tag(project.photo_url, :class=>"project_image"), project%>
         </div>
       </div>
     <% end %>
