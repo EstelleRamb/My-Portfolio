@@ -3,10 +3,20 @@
   <div class="row row-cols-1 row-cols-md-3 g-3">
     <% @projects.each do |project| %>
       <div class="col">
-        <div class="card shadow">
-          <%= link_to image_tag(project.photo_url, :class=>"project_image"), project%>
+        <div class="card shadow position-relative"
+             data-controller="card"
+             data-action="mouseenter->card#readtitle">
+          <%= link_to image_tag(project.photo_url, :class=>"project_image"), project %>
+
+          <span class = "title d-none position-absolute top-50 start-50 translate-middle"
+                data-card-target="titles">
+                <%= project.name %></span>
         </div>
       </div>
     <% end %>
   </div>
 </div>
+
+<script>
+
+</script>
