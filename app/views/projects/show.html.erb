@@ -1,10 +1,35 @@
 <div class="container-projects">
-  <%= link_to "retour", projects_path %>
-  <h2><%= @project.name %></h2>
-  <p><%= @project.description %></p>
-  <%= image_tag(@project.photo_url) %>
-  <%= image_tag(@project.photo_url1) %>
-  <%= image_tag(@project.photo_url2) %>
-  <%= image_tag(@project.photo_url3) %>
-  <%= image_tag(@project.photo_url4) %>
+  <div class="container-projects">
+    <%= link_to "retour", projects_path %>
+    <h2><%= @project.name %></h2>
+    <p><%= @project.description %></p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow">
+          <%= image_tag(@project.photo_url) %>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <%= image_tag(@project.photo_url1) %>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <%= image_tag(@project.photo_url2) %>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <%= image_tag(@project.photo_url3) %>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow">
+          <%= image_tag(@project.photo_url4) %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
