@@ -17,7 +17,7 @@ div.card{
   border: none;
 }
 
-div.card:hover{
+div.card-index:hover{
   background-color: #f38458;
   transition: 0.8s;
 }
@@ -38,3 +38,40 @@ div.card:hover{
   width: 100%;
   text-align: center;
 }
+
+.card-index {
+  position: relative;
+}
+
+// .project_image {
+//   // display: block;
+//   width: 100%;
+//   height: auto;
+// }
+
+// .overlay {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   height: 100%;
+//   width: 100%;
+//   opacity: 0;
+//   transition: .5s ease;
+//   background-color: #008CBA;
+// }
+
+// .card-index:hover .overlay {
+//   opacity: 1;
+// }
+
+// .title {
+//   color: white;
+//   font-size: 20px;
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+// }
