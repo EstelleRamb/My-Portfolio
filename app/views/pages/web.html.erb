@@ -1,6 +1,8 @@
 <div class="container-projects">
-  <h1 class="categorie">Développement Web</h1>
-  <a href="<%=projects_path%>"><i class="fa-solid fa-arrow-left"></i></a>
+  <div class="categorie-banner">
+    <a href="<%=projects_path%>"><i class="fa-solid fa-arrow-left"></i></a>
+    <h1 class="categorie">Développement Web</h1>
+  </div>
   <div class="row row-cols-1 row-cols-md-3 g-3">
     <% @projects.each do|project| %>
       <% if project.genre == "web" %>

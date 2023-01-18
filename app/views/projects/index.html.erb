@@ -3,14 +3,14 @@
   <div class="row row-cols-1 row-cols-md-3 g-3">
     <% @projects.each do |project| %>
       <div class="col">
-        <div class="card shadow position-relative"
-             data-controller="card"
-             data-action="mouseenter->card#readtitle">
+        <div class="card shadow card-index"
+          data-controller="card"
+          data-action="mouseenter->card#readtitle">
           <%= link_to image_tag(project.photo_url, :class=>"project_image"), project %>
-
-          <span class = "title d-none position-absolute top-50 start-50 translate-middle"
+          <div class = "title d-none"
                 data-card-target="titles">
-                <%= project.name %></span>
+                <%= project.name %>
+          </div>
         </div>
       </div>
     <% end %>

@@ -13,7 +13,7 @@ export default class extends Controller {
     const titles = this.titlesTargets
 
     titles.forEach((title) =>{
-      title.classList.toggle('d-none');
+      title.classList.remove('d-none');
     })
   }
 
