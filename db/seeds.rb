@@ -23,11 +23,11 @@ Project.create!(
                 Concept de la double lecture avec une production en bichromie et un
                 système de filtre qui masque et/ou dévoile des éléments imprimés.
                 Programme comprenant l'ensemble des spectacles de l'année",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896995/production/Portfolio/affiche-novembre_rqljgw.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997959/production/Portfolio/2_xnyxjo.jpg',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997960/production/Portfolio/programme-page-8_jffsjy.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997959/production/Portfolio/2_xnyxjo.jpg',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997960/production/Portfolio/Affiche-blanche_hxdsvm.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997959/production/Portfolio/Affiche-rouge_njxvxf.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997960/production/Portfolio/Affiche-blanche_hxdsvm.jpg',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997959/production/Portfolio/Affiche-rouge_njxvxf.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896995/production/Portfolio/affiche-novembre_rqljgw.jpg',
 )
 
 Project.create!(
@@ -52,10 +52,10 @@ Project.create!(
                 soit même des suspensions, décorations murales et autres.
                 Outils : Illustrator",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896975/production/Portfolio/magasin_hjopir.png',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998184/production/Portfolio/serie_logos_uzswjv.png',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998195/production/Portfolio/stikers_s4tsbx.png',
   photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998183/production/Portfolio/Carte_visite_recto_hsybnq.png',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998195/production/Portfolio/stikers_s4tsbx.png',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998197/production/Portfolio/carte_ge9gpt.png',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998197/production/Portfolio/carte_ge9gpt.png',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998184/production/Portfolio/serie_logos_uzswjv.png',
 )
 
 Project.create!(
@@ -79,11 +79,11 @@ Project.create!(
                 du lieu car elle sera située derrière les caisses. J’ai réalisé une fresque basée sur un
                 photo montages en noir et blanc, sur la thématique : Entre mets et vins.
                 L’ensemble représente un bouteille de vin, grâce à des aplats rouges",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896977/production/Portfolio/Photo_finale_seqlxt.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997027/production/Portfolio/Screen_Shot_2015-04-29_at_13.23.24_bwtqff.png',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997027/production/Portfolio/Screen_Shot_2015-04-29_at_13.22.44_dm9ldw.png',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997027/production/Portfolio/Photo_finale_2_puetxc.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997026/production/Portfolio/Edited_Image_2015-7-1-17_43_9_zx3tpg.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997027/production/Portfolio/Screen_Shot_2015-04-29_at_13.23.24_bwtqff.png',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997027/production/Portfolio/Screen_Shot_2015-04-29_at_13.22.44_dm9ldw.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674081222/production/Portfolio/Photo_finale_2_fzenkm.jpg',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997026/production/Portfolio/Edited_Image_2015-7-1-17_43_9_zx3tpg.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896977/production/Portfolio/Photo_finale_seqlxt.jpg',
 )
 
 Project.create!(
@@ -93,8 +93,8 @@ Project.create!(
                 anesthésiste de l'Institut Marie Curie.
                 Réalisation de l'Affiche, du Flyers et de la Couverture du livret explicatif.",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673897993/production/Portfolio/Mise_en_situation_Affiche_lfdm0f.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997095/production/Portfolio/Affiche_igkp2v.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997096/production/Portfolio/Mise_en_situation_livret_eoffmw.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997096/production/Portfolio/Mise_en_situation_livret_eoffmw.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997095/production/Portfolio/Affiche_igkp2v.jpg',
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997093/production/Portfolio/Livret_couverture_orim3f.jpg',
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997092/production/Portfolio/Flyer_o8qztc.jpg',
 )
@@ -106,11 +106,12 @@ Project.create!(
                 Travail autour des initiales avec différents traitements typographiques.
                 Recherches d'éléments graphique rappelant l'univers de l'architecture,
                 notamment le plan et ses niveaux de lecture.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896814/production/Portfolio/logo7_yzomx6.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997161/production/Portfolio/logo2_mckfat.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997161/production/Portfolio/logo6_gnozrk.jpg',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997161/production/Portfolio/logo5_o21rju.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997161/production/Portfolio/logo4_fbnkwx.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674080272/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-18_a%CC%80_17.15.58_wmpps2.png',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674080272/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-18_a%CC%80_17.13.36_pfnifo.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674080272/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-18_a%CC%80_17.14.19_v5t87z.png',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674080272/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-18_a%CC%80_17.15.29_gkxxk8.png',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674080272/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-18_a%CC%80_17.14.48_uqfl6t.png',
+
 )
 
 Project.create!(
@@ -122,7 +123,7 @@ Project.create!(
                 polaire évoquent le froid scandinave mais créent aussi un univers frais, lumineux et sobre.",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896860/production/Portfolio/Ensemble_support_mock_up_bmlyof.jpg',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997342/production/Portfolio/Cartes_visite_mock_up_crymaz.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997338/production/Portfolio/GOBELET_bjkuqy.jpg',
+  photo_url2: '',
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997338/production/Portfolio/dessous-de-verre_qx1x6s.jpg',
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997338/production/Portfolio/sac_wzkvol.jpg',
 )
@@ -139,10 +140,10 @@ Project.create!(
                  du public par leur identification à L’usine Cadbury. J’ai créé deux logos, pris des photos du lieu
                  pour mettre en place une page Facebook comportant un logo et une photo de couverture.",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896773/production/Portfolio/logo_final_vect-01_amhqql.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997441/production/Portfolio/couv_fb_02_ffgepe.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997441/production/Portfolio/couv_fb_01_jrift9.jpg',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997441/production/Portfolio/couv_fb_03_aw0mhh.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997474/production/Portfolio/logo_final_vect-02_jojmtx.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997474/production/Portfolio/logo_final_vect-02_jojmtx.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997441/production/Portfolio/couv_fb_02_ffgepe.jpg',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997441/production/Portfolio/couv_fb_01_jrift9.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997441/production/Portfolio/couv_fb_03_aw0mhh.jpg',
 )
 
 Project.create!(
@@ -152,8 +153,9 @@ Project.create!(
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673897998/production/Portfolio/IMG_9921_fhnw1h.jpg',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997501/production/Portfolio/IMG_9995_g2qv7t.jpg',
   photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997501/production/Portfolio/IMG_9909_mmaumj.jpg',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997500/production/Portfolio/IMG_9928_e2vif6.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997500/production/Portfolio/IMG_0230_ajgdd4.jpg',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997500/production/Portfolio/IMG_0230_ajgdd4.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997500/production/Portfolio/IMG_9928_e2vif6.jpg',
+
 )
 
 Project.create!(
@@ -161,11 +163,11 @@ Project.create!(
   genre: 'graphism',
   description: "Conférence sur le thème de les pouvoirs humains sur les génômes. Réalisation de l'Affiche, du Flyers
                 et du livret explicatif.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896854/production/Portfolio/08_urban_poster_mockup_gwnehn.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997547/production/Portfolio/Affiche_JED_sysv02.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997542/production/Portfolio/Affiche_VECT2_betuy1.png',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997547/production/Portfolio/Affiche_JED_sysv02.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997542/production/Portfolio/Affiche_VECT2_betuy1.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896854/production/Portfolio/08_urban_poster_mockup_gwnehn.jpg',
   photo_url3: '',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997544/production/Portfolio/LOGO_3_kgten0.jpg',
+  photo_url4: '',
 )
 
 Project.create!(
@@ -216,11 +218,11 @@ Project.create!(
   genre: 'graphism',
   description: "Rapport de stage réalisé à la suite d'un stage de 3 mois au sein du studio
                 Bicouac Studio à Montréal.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896901/production/Portfolio/IMG_0484_x8rtik.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0470_r2fxxj.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0478_wkhhs9.jpg',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0483_ocolcg.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0457_xuicuh.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0470_r2fxxj.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0478_wkhhs9.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0483_ocolcg.jpg',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998349/production/Portfolio/IMG_0457_xuicuh.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896901/production/Portfolio/IMG_0484_x8rtik.jpg',
 )
 
 Project.create!(
@@ -229,10 +231,10 @@ Project.create!(
   description: "Série d’affiches autour des critiques du film de Xavier Dolan « Mommy », qui a beaucoup fait parler.
                 J’ai exploité les critiques des magazines et j’ai créé un univers graphique autour de chacune.",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896923/production/Portfolio/livre-fermer_iaaiie.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/livre1_essxwl.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/A6_cd7c3c.jpg',
   photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/A9_n2dwea.jpg',
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/IMG_0552_h8pg4m.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/A6_cd7c3c.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/livre1_essxwl.jpg',
 )
 
 Project.create!(
@@ -254,10 +256,10 @@ Project.create!(
                 à déguster en fonction de son humeur et de son état d’esprit : Mélancolie, Bonheur, Fureur,
                 Exaltation, Nostalgie sont les 5 parfums de la gamme proposée. Une alternative chic et insolite
                 aux désormais trop classiques macarons.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896938/production/Portfolio/ensemble_jxjato.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998519/production/Portfolio/exaltation_yuuhev.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998519/production/Portfolio/carte-recto_gcqz1f.jpg',
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998519/production/Portfolio/bo%C3%AEtes_t0q9qz.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998519/production/Portfolio/exaltation_yuuhev.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896938/production/Portfolio/ensemble_jxjato.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998519/production/Portfolio/carte-recto_gcqz1f.jpg',
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998519/production/Portfolio/bonheur_mz3qjb.jpg',
 )
 

@@ -14,13 +14,21 @@
 .container-projects-show{
   display: flex;
   margin: 30px;
+
 }
 
 .infos{
+  width: 400px;
   margin-top:30px;
   height: 100vh;
+  position: sticky;
+  top: 10px;
 }
 
-.shadow{
-  max-width: 100%;
+.project{
+  max-width: 420px;
+  display: flex;
+  margin: 5px;
+  background-color: #c7f7dd;
+  box-shadow: none;
 }
