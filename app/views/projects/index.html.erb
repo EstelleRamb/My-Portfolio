@@ -7,10 +7,12 @@
              data-controller="card"
              data-action="mouseenter->card#readtitle">
              <%= link_to image_tag(project.photo_url, :class=>"project_image"), project %>
-
+            <div class="content">
               <div class = "title d-none"
-                    data-card-target="titles">
-                    <%= project.name %></div>
+                  data-card-target="titles">
+                  <%= project.name %>
+              </div>
+            </div>
         </div>
       </div>
     <% end %>
