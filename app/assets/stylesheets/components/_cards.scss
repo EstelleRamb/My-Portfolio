@@ -21,15 +21,15 @@ div.card{
   border: none;
 }
 
-div.card-index:hover{
+.card-index:hover{
   background-color: #f38458;
   transition: 0.8s;
 }
 
-
 .card-index{
   position: relative;
   overflow: hidden;
+  background-color: #c7f7dd;
 }
 
 .title{
