@@ -1,15 +1,47 @@
 .photo-about{
   top: 20px;
   left: 50px;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  opacity: 0.8;
+}
+.background{
+  text-align: center;
 }
 
-.background {
-  margin-left: auto;
-  margin-right: auto;
+.background i{
+  color: #f59e7c;
+  font-size: 30px;
+}
+
+.icons{
+  margin-top: 20px;
+}
+
+.background i:hover{
+  color: #e46939;
+}
+
+.container-about{
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  // top: -80px;
+  margin-top: 50px;
+}
+
+.presentation{
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.presentation a {
+  text-decoration: none;
+  color: #e46939;
 }
