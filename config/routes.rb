@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get 'photo', to: 'pages#photo'
   get 'web', to: 'pages#web'
   get 'graphism', to: 'pages#graphism'
+  get 'about', to: 'pages#about'
 
 end
