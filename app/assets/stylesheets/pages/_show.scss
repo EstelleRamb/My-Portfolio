@@ -6,23 +6,36 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 0px;
   margin-top: 30px;
 }
 
 .container-projects-show{
   display: flex;
-  margin: 30px;
-
+  margin-left: 50px;
+  margin-top: 20px;
 }
+
 
 .infos{
   width: 400px;
   margin-top:30px;
   height: 100vh;
   position: sticky;
-  top: 10px;
+  top: 50px;
+}
+
+.infos a{
+}
+
+.infos i{
+  color: #5ba980;
+  padding-bottom: 20px;
+}
+
+.infos i:hover{
+  color: #b7efd1;
 }
 
 .project{
@@ -31,4 +44,14 @@
   margin: 5px;
   background-color: #c7f7dd;
   box-shadow: none;
+}
+
+.link-project{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-project:hover{
+  color: #f38458;
 }
