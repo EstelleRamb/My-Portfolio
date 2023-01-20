@@ -8,7 +8,7 @@
   grid-gap: 10px;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 130px;
+  margin-top: 133px;
 }
 
 .container-projects-show{
@@ -18,6 +18,26 @@
     // margin-left: 50px;
     // margin-top: 20px;
 }
+
+@media(max-width: 992px) {
+  .all-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .all-card {
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+  }
+  .container-projects-show{
+    flex-direction: column;
+  }
+  .infos{
+    margin-bottom: 20px;
+  }
+}
+
 
 #description{
   text-align: justify;
@@ -31,10 +51,11 @@
   width: 400px;
   margin-top:30px;
   margin-right: 40px;
-  height: 100vh;
+  height: auto;
   position: sticky;
   top: 50px;
   text-justify: auto;
+  margin-left:10px ;
 }
 
 .infos a{
