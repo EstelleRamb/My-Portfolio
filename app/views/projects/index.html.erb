@@ -6,9 +6,15 @@
         <div class="card shadow card-index"
              data-controller="card"
              data-action="mouseenter->card#readtitle">
+             <% if project.name == "AirDreamNDream" %>
+              <%= link_to image_tag("https://res.cloudinary.com/dvw6upciw/image/upload/v1674246645/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_15.30.21_tismnl.png", :class=>"project_image"), project %>
+             <%elsif project.name == "Groovy"%>
+              <%= link_to image_tag("https://res.cloudinary.com/dvw6upciw/image/upload/v1674247271/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_15.40.52_fozqu4.png", :class=>"project_image"), project %>
+             <% else %>
              <%= link_to image_tag(project.photo_url, :class=>"project_image"), project %>
-            <div class="content">
-              <div class = "title d-none"
+             <% end %>
+             <div class="content">
+               <div class = "title d-none"
                   data-card-target="titles">
                   <%= project.name %>
               </div>
