@@ -14,6 +14,32 @@ puts "done"
 puts "create projects"
 
 Project.create!(
+  name: 'Groovy',
+  genre: 'web',
+  description: "Groovy est une application pour les collectionneurs de vinyles. Elle vous permet de numeriser
+                votre collection, la ranger et toujours savoir ce que vous possédez. Vous pouvez aussi faire
+                des échanges avec d'autres utilisateurs de l'application. Application réalisé en 9 jours dans le cadre du bootcamp Le Wagon Montréal.
+                Langages : Ruby on rails, HTML, SCSS, Javascript",
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674245707/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_15.06.40_z4mdt8.png',
+  photo_url1: '',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998083/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.10.02_pyvabd.png',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998090/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.07.13_vs1kpt.png',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998089/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.07.43_vi0osp.png',
+)
+Project.create!(
+  name: "AirDreamNDream",
+  genre: 'web',
+  description: "Vos rêves ne vous plaises plus ? AirDreamNDream est là pour vous. Louez les rêves de vos rêves,
+                pour passer des nuits parfaites. Vous pouvez aussi mettre en location vos propres rêves.
+                Application réalisé dans le cadre du bootcamp Le Wagon Montréal.
+                Langages: Ruby on Rails, HTML, Javascript, SCSS",
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674246119/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_15.21.05_btbdy5.png',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997658/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.13.29_eaustu.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997657/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.13.45_hdbkui.png',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997657/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.13.03_k4yyz5.png',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997656/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.14.04_yc7q8b.png',
+)
+Project.create!(
   name: 'Le théâtre de la Colinne',
   genre: 'graphism',
   description: "Le théâtre de la Colline est un théâtre National situé à l’Est Parisien.
@@ -30,19 +56,6 @@ Project.create!(
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896995/production/Portfolio/affiche-novembre_rqljgw.jpg',
 )
 
-Project.create!(
-  name: 'Groovy',
-  genre: 'web',
-  description: "Groovy est une application pour les collectionneurs de vinyles. Elle vous permet de numeriser
-                votre collection, la ranger et toujours savoir ce que vous possédez. Vous pouvez aussi faire
-                des échanges avec d'autres utilisateurs de l'application.
-                Langages : Ruby on rails, HTML, SCSS, Javascript",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896832/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.06.39_u8qt3y.png',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998083/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.10.02_pyvabd.png',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998086/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.08.10_il6tbd.png',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998090/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.07.13_vs1kpt.png',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998089/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.07.43_vi0osp.png',
-)
 
 Project.create!(
   name: 'Rendez-vous sur la lune',
@@ -73,30 +86,16 @@ Project.create!(
 Project.create!(
   name: 'SAQ',
   genre: 'graphism',
-  description: "Un établissement SAQ est rénové, ré-agencé entièrement, avec un travail sur
-                l’architecture intérieur et son aménagement. La société souhaitait avoir
-                une fresque qui habillera une partie d’un mur. Elle sera un élément fort
-                du lieu car elle sera située derrière les caisses. J’ai réalisé une fresque basée sur un
+  description: "La SAQ du marché Jean Talon souhaitait avoir
+                une fresque qui habille le mur en arrière des caisses. Elle doit être un élément fort
+                pour marquer l'identité du lieu. J’ai réalisé une fresque basée sur un
                 photo montages en noir et blanc, sur la thématique : Entre mets et vins.
-                L’ensemble représente un bouteille de vin, grâce à des aplats rouges",
+                L’ensemble représente un bouteille de vin, grâce à des aplats rouges placés à des endroits stratégiques.",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997027/production/Portfolio/Screen_Shot_2015-04-29_at_13.23.24_bwtqff.png',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997027/production/Portfolio/Screen_Shot_2015-04-29_at_13.22.44_dm9ldw.png',
   photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674081222/production/Portfolio/Photo_finale_2_fzenkm.jpg',
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997026/production/Portfolio/Edited_Image_2015-7-1-17_43_9_zx3tpg.jpg',
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896977/production/Portfolio/Photo_finale_seqlxt.jpg',
-)
-
-Project.create!(
-  name: "19e Journées de l'école Doctorale Clermont-Ferrand",
-  genre: 'graphism',
-  description: "Conférence sur le thème de l'Hypnose médicale, avec l'intervention d'un médecin
-                anesthésiste de l'Institut Marie Curie.
-                Réalisation de l'Affiche, du Flyers et de la Couverture du livret explicatif.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673897993/production/Portfolio/Mise_en_situation_Affiche_lfdm0f.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997096/production/Portfolio/Mise_en_situation_livret_eoffmw.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997095/production/Portfolio/Affiche_igkp2v.jpg',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997093/production/Portfolio/Livret_couverture_orim3f.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997092/production/Portfolio/Flyer_o8qztc.jpg',
 )
 
 Project.create!(
@@ -113,25 +112,60 @@ Project.create!(
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674080272/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-18_a%CC%80_17.14.48_uqfl6t.png',
 
 )
+Project.create!(
+  name: "Mommy",
+  genre: 'graphism',
+  description: "Série d’affiches autour des critiques du film de Xavier Dolan « Mommy », qui a beaucoup fait parler.
+                J’ai exploité les critiques des magazines et j’ai créé un univers graphique autour de chacune.",
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674235303/production/Portfolio/Photo1_xygp19.png',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674235669/production/Portfolio/Photo2_tqt90d.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674235302/production/Portfolio/Photo_3_mulcnk.png',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674235668/production/Portfolio/Photo_4_wy0fil.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896923/production/Portfolio/livre-fermer_iaaiie.jpg',
+)
 
 Project.create!(
-  name: "Madame Bla",
+  name: "Summer",
+  genre: 'graphism',
+  description: "Experimentation de l'isométrie sur Illustrator",
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896984/production/Portfolio/summer-fruits_fskrql.png',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998471/production/Portfolio/Fruits_gtwit4.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998470/production/Portfolio/Citron_ananas_obsbr4.png',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998471/production/Portfolio/Summer_isometric_r0rmdn.png',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998470/production/Portfolio/Orange_Ananas_boayxs.png',
+)
+Project.create!(
+  name: "19e Journées de l'école Doctorale Clermont-Ferrand",
+  genre: 'graphism',
+  description: "Conférence sur le thème de l'Hypnose médicale, avec l'intervention d'un médecin
+                anesthésiste de l'Institut Marie Curie.
+                Réalisation de l'affiche, du flyer et de la couverture du livret explicatif.",
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673897993/production/Portfolio/Mise_en_situation_Affiche_lfdm0f.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997096/production/Portfolio/Mise_en_situation_livret_eoffmw.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997095/production/Portfolio/Affiche_igkp2v.jpg',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997093/production/Portfolio/Livret_couverture_orim3f.jpg',
+  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997092/production/Portfolio/Flyer_o8qztc.jpg',
+)
+
+
+Project.create!(
+  name: "Madam Bla",
   genre: 'graphism',
   description: "Madam Bla est un café scandinave situé à Nantes. Il propose les spécialités culinaires, gourmandes
                 et authentiques de cette région du nord de l'Europe. La refonte de son identité visuelle a pour
                 but d'attirer une clientèle jeune. L’utilisation d’un bleu glacial ainsi qu’un dessin d’un ours
                 polaire évoquent le froid scandinave mais créent aussi un univers frais, lumineux et sobre.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896860/production/Portfolio/Ensemble_support_mock_up_bmlyof.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997342/production/Portfolio/Cartes_visite_mock_up_crymaz.jpg',
-  photo_url2: '',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997338/production/Portfolio/dessous-de-verre_qx1x6s.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997338/production/Portfolio/sac_wzkvol.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234097/production/Portfolio/Cartes_visite_mock_up_qsreqe.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234094/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_11.53.12_xqr0fd.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234099/production/Portfolio/Ensemble_support_mock_up_cppozi.jpg',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234094/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_11.53.31_oniqjx.png',
+  photo_url4: '',
 )
 
 Project.create!(
   name: "Usine Cadbury",
   genre: 'graphism',
-  description: " Dans le cœur de Montréal, se trouve un ancienne usine cadbury, aujourd’hui réhabilité en des dizaines
+  description: " Dans le cœur de Montréal, se trouve une ancienne usine cadbury, aujourd’hui réhabilité en des dizaines
                  de lofts à louer. Ce lieu atypique abrite des dizaines de petites entreprises, aux domaines variés,
                  comme des graphistes, architectes, designer, ébénisterie, couturier, photographes, etc. Le bâtiment
                  a gardé sa structure, son aspect industriel, authentique qui lui donne son caractère singulier.
@@ -147,9 +181,9 @@ Project.create!(
 )
 
 Project.create!(
-  name: "Photo urbaine",
+  name: "Photos urbaines",
   genre: 'photo',
-  description: " Série de photo de l'Usine Cadbury à /montréal",
+  description: " Série de photo de l'Usine Cadbury à montréal",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673897998/production/Portfolio/IMG_9921_fhnw1h.jpg',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997501/production/Portfolio/IMG_9995_g2qv7t.jpg',
   photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997501/production/Portfolio/IMG_9909_mmaumj.jpg',
@@ -161,7 +195,7 @@ Project.create!(
 Project.create!(
   name: "Journées de l'école Doctorale Clermont-Ferrand (2017)",
   genre: 'graphism',
-  description: "Conférence sur le thème de les pouvoirs humains sur les génômes. Réalisation de l'Affiche, du Flyers
+  description: "Conférence sur le thème de les pouvoirs humains sur les génômes. Réalisation de l'affiche, du flyer
                 et du livret explicatif.",
   photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997547/production/Portfolio/Affiche_JED_sysv02.jpg',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997542/production/Portfolio/Affiche_VECT2_betuy1.png',
@@ -170,33 +204,6 @@ Project.create!(
   photo_url4: '',
 )
 
-Project.create!(
-  name: "AirDreamNDream",
-  genre: 'web',
-  description: "Vos rêves ne vous plaises plus ? AirDreamNDream est là pour vous. Louez les rêves de vos rêves,
-                pour passer des nuits parfaites. Vous pouvez aussi mettre en location vos propres rêves.
-                Langages: Ruby on Rails, HTML, Javascript, SCSS",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896760/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.12.50_zxmwvm.png',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997658/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.13.29_eaustu.png',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997657/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.13.45_hdbkui.png',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997657/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.13.03_k4yyz5.png',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997656/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.14.04_yc7q8b.png',
-)
-
-Project.create!(
-  name: "Cochon, mon cousin",
-  genre: 'graphism',
-  description: "Réalisation d'une série de 3 brochures et d'une affiche à l'occasion d'une exposition
-                à la Cité des Sciences et de l'Industrie, intitulée 'Cochon, mon cousin'. Cette exposition
-                est basée sur la thématique de la relation entre l'homme et le cochon. Elle expose les
-                ressemblances entre ces deux êtres. Les brochures abordent ces similitudes sur trois
-                axes : la génétique, le greffe et le comportement.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896808/production/Portfolio/Affiche_abribus_wnnxlj.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997854/production/Portfolio/page2_iwvmzk.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997854/production/Portfolio/brochure3_b2pmvo.jpg',
-  photo_url3: '',
-  photo_url4: '',
-)
 
 Project.create!(
   name: "McGill",
@@ -225,31 +232,9 @@ Project.create!(
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896901/production/Portfolio/IMG_0484_x8rtik.jpg',
 )
 
-Project.create!(
-  name: "Mommy",
-  genre: 'graphism',
-  description: "Série d’affiches autour des critiques du film de Xavier Dolan « Mommy », qui a beaucoup fait parler.
-                J’ai exploité les critiques des magazines et j’ai créé un univers graphique autour de chacune.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896923/production/Portfolio/livre-fermer_iaaiie.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/A6_cd7c3c.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/A9_n2dwea.jpg',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/IMG_0552_h8pg4m.jpg',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998409/production/Portfolio/livre1_essxwl.jpg',
-)
 
 Project.create!(
-  name: "Summer",
-  genre: 'graphism',
-  description: "Experimentation de l'isométrie sur Illustrator",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896984/production/Portfolio/summer-fruits_fskrql.png',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998471/production/Portfolio/Fruits_gtwit4.png',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998470/production/Portfolio/Citron_ananas_obsbr4.png',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998471/production/Portfolio/Summer_isometric_r0rmdn.png',
-  photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998470/production/Portfolio/Orange_Ananas_boayxs.png',
-)
-
-Project.create!(
-  name: "Mood",
+  name: "Moood",
   genre: 'graphism',
   description: "Projet d’identité visuelle globale pour la marque MOOOD, création de guimauves de luxe.
                 Une identité élégante, à la dimension qualitative et gourmande évidente. Moood édite des guimauve
