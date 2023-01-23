@@ -64,10 +64,10 @@ Project.create!(
                 créatrice d'objets. Elle propose des ateliers de création et des kit DIY pour fabriquer
                 soit même des suspensions, décorations murales et autres.
                 Outils : Illustrator",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896975/production/Portfolio/magasin_hjopir.png',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998195/production/Portfolio/stikers_s4tsbx.png',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674479214/production/Portfolio/magasin_copie_qqqdwv.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674479444/production/Portfolio/stikers_f6aqid.jpg',
   photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998183/production/Portfolio/Carte_visite_recto_hsybnq.png',
-  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998197/production/Portfolio/carte_ge9gpt.png',
+  photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674479520/production/Portfolio/carte_az0p6i.jpg',
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998184/production/Portfolio/serie_logos_uzswjv.png',
 )
 
@@ -140,9 +140,9 @@ Project.create!(
   description: "Conférence sur le thème de l'Hypnose médicale, avec l'intervention d'un médecin
                 anesthésiste de l'Institut Marie Curie.
                 Réalisation de l'affiche, du flyer et de la couverture du livret explicatif.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673897993/production/Portfolio/Mise_en_situation_Affiche_lfdm0f.jpg',
-  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997096/production/Portfolio/Mise_en_situation_livret_eoffmw.jpg',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997095/production/Portfolio/Affiche_igkp2v.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674479650/production/Portfolio/Mise_en_situation_Affiche_wwz2ae.jpg',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674479745/production/Portfolio/Mise_en_situation_livret_copie_mup3ac.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674479808/production/Portfolio/Affiche_copie_syqvuo.jpg',
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997093/production/Portfolio/Livret_couverture_orim3f.jpg',
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997092/production/Portfolio/Flyer_o8qztc.jpg',
 )
@@ -197,9 +197,9 @@ Project.create!(
   genre: 'graphism',
   description: "Conférence sur le thème de les pouvoirs humains sur les génômes. Réalisation de l'affiche, du flyer
                 et du livret explicatif.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997547/production/Portfolio/Affiche_JED_sysv02.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674480030/production/Portfolio/Affiche_JED_copie_jhh486.jpg',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997542/production/Portfolio/Affiche_VECT2_betuy1.png',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673896854/production/Portfolio/08_urban_poster_mockup_gwnehn.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674479881/production/Portfolio/08_urban_poster_mockup_copie_oppslk.jpg',
   photo_url3: '',
   photo_url4: '',
 )
@@ -249,7 +249,7 @@ Project.create!(
 )
 
 Project.create!(
-  name: "Mémoire Théâtres de la colline",
+  name: "Mémoire Théâtre de la colline",
   genre: 'graphism',
   description: "Livre qui rassemble et résume l'ensemble du processus de création de mon projet de fin d'étude.
                 Le projet était de réaliser la communication visuelle d'un théâtre Parisien, comprenant les
