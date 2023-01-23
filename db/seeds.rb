@@ -155,9 +155,9 @@ Project.create!(
                 et authentiques de cette région du nord de l'Europe. La refonte de son identité visuelle a pour
                 but d'attirer une clientèle jeune. L’utilisation d’un bleu glacial ainsi qu’un dessin d’un ours
                 polaire évoquent le froid scandinave mais créent aussi un univers frais, lumineux et sobre.",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234097/production/Portfolio/Cartes_visite_mock_up_qsreqe.jpg',
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674485589/production/Portfolio/Cartes_visite_mock_up_copie_odbw3r.jpg',
   photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234094/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_11.53.12_xqr0fd.png',
-  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234099/production/Portfolio/Ensemble_support_mock_up_cppozi.jpg',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674485589/production/Portfolio/Ensemble_support_mock_up_copie_iltcw5.jpg',
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1674234094/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_11.53.31_oniqjx.png',
   photo_url4: '',
 )
