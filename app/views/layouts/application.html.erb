@@ -15,10 +15,10 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="<%= root_path%>"><h2>Estelle Rambur</h2></a>
         <div class="icon">
-          <a class="navbar-brand" href="<%= photo_path%> "><i class="fa-solid fa-camera-retro"></i></a>
-          <a class="navbar-brand" href="<%= projects_path%>"><i class="fa-solid fa-border-all"></i></a>
-          <a class="navbar-brand" href="<%= web_path%>"><i class="fa-solid fa-code"></i></a>
-          <a class="navbar-brand" href="<%= graphism_path%>"><i class="fa-solid fa-pen-nib"></i></a>
+          <a class="navbar-brand" href="<%= projects_path%>"><i class="fa-solid fa-border-all"></i><i class="d-none">All</i></a>
+          <a class="navbar-brand" href="<%= photo_path%>"><i class="fa-solid fa-camera-retro" ></i></a>
+          <a class="navbar-brand" href="<%= web_path%>"><i class="fa-solid fa-code"></i><i class="d-none">Developpemetn Web</i></a>
+          <a class="navbar-brand" href="<%= graphism_path%>"><i class="fa-solid fa-pen-nib"></i><i class="d-none">Graphisme</i></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,10 +27,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="">About</a>
+              <a class="nav-link" href="<%=about_path%>">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="mailto:estelle.rambur@gmail.com">Contact</a>
             </li>
 
             <!--li class="nav-item"-->

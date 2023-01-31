@@ -1,9 +1,15 @@
 
 <div class="container-projects-show">
-  <a href="<%=projects_path%>"><i class="fa-solid fa-arrow-left"></i></a>
   <div class="infos">
-    <h2><%= @project.name %></h2>
-    <p><%= @project.description %></p>
+    <a href="<%=projects_path%>"><i class="fa-solid fa-arrow-left"></i></a>
+    <h2 id="title-project"><%= @project.name %></h2>
+    <br>
+    <p id="description"><%= @project.description %></p>
+    <% if @project.name == 'Groovy'%>
+      <a href="http://www.groovy.wiki/" target="_blank" class="link-project">Visitez l'application</a>
+    <% elsif @project.name == 'AirDreamNDream'  %>
+      <a href="https://airdreamndream.herokuapp.com/" target="_blank" class="link-project">Visitez l'application</a>
+    <% end %>
   </div>
   <div class="all-card">
     <div class="card project">

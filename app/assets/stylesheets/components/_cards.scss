@@ -11,6 +11,10 @@
   // display: block;
   }
 
+.row{
+  padding: 40px;
+}
+
 .project_image:hover{
   opacity: 0.5;
   filter: saturate(0);
@@ -21,16 +25,19 @@ div.card{
   border: none;
 }
 
-div.card-index:hover{
+.card-index:hover{
   background-color: #f38458;
   transition: 0.8s;
 }
 
-
 .card-index{
   position: relative;
   overflow: hidden;
+<<<<<<< HEAD
   background-color: #b7efd1;
+=======
+  background-color: #c7f7dd;
+>>>>>>> 411b0f111ee5a85ed098b0d9ea3a25e702ffe1c4
 }
 
 .title{

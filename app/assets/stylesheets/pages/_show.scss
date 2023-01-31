@@ -6,23 +6,68 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 133px;
 }
 
 .container-projects-show{
   display: flex;
-  margin: 30px;
+  // align-items: center;
+  justify-content: center;
+    // margin-left: 50px;
+    // margin-top: 20px;
+}
 
+@media(max-width: 992px) {
+  .all-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .all-card {
+    grid-template-columns: 1fr;
+    margin-top: 0px;
+  }
+  .container-projects-show{
+    flex-direction: column;
+  }
+  .infos{
+    margin-bottom: 20px;
+  }
+}
+
+
+#description{
+  text-align: justify;
+}
+
+#title-project{
+  font-family: 'Futura';
 }
 
 .infos{
   width: 400px;
   margin-top:30px;
-  height: 100vh;
+  margin-right: 40px;
+  height: auto;
   position: sticky;
-  top: 10px;
+  top: 50px;
+  text-justify: auto;
+  margin-left:10px ;
+}
+
+.infos a{
+}
+
+.infos i{
+  color: #5ba980;
+  padding-bottom: 20px;
+}
+
+.infos i:hover{
+  color: #b7efd1;
 }
 
 .project{
@@ -31,4 +76,14 @@
   margin: 5px;
   background-color: #c7f7dd;
   box-shadow: none;
+}
+
+.link-project{
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-project:hover{
+  color: #f38458;
 }

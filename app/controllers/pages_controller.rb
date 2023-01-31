@@ -13,4 +13,7 @@ class PagesController < ApplicationController
   def graphism
     @projects = Project.all
   end
+
+  def about
+  end
 end
