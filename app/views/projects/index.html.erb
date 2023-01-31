@@ -6,7 +6,9 @@
         <div class="card shadow card-index"
              data-controller="card"
              data-action="mouseenter->card#readtitle">
-             <% if project.name == "AirDreamNDream" %>
+             <% if project.name == "Movies List" %>
+              <%= link_to image_tag("https://res.cloudinary.com/dvw6upciw/image/upload/v1675183899/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-31_a%CC%80_11.48.48_l7c5wl.png", :class=>"project_image"), project %>
+             <% elsif project.name == "AirDreamNDream" %>
               <%= link_to image_tag("https://res.cloudinary.com/dvw6upciw/image/upload/v1674246645/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_15.30.21_tismnl.png", :class=>"project_image"), project %>
              <%elsif project.name == "Groovy"%>
               <%= link_to image_tag("https://res.cloudinary.com/dvw6upciw/image/upload/v1674247271/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-20_a%CC%80_15.40.52_fozqu4.png", :class=>"project_image"), project %>
