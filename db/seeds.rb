@@ -39,6 +39,20 @@ Project.create!(
   photo_url3: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997657/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.13.03_k4yyz5.png',
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673997656/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-16_a%CC%80_13.14.04_yc7q8b.png',
 )
+
+Project.create!(
+  name: "Movies List",
+  genre: 'web',
+  description: "Create your own movies lists and organize your movies library. Application created as part of the Le Wagon Montreal bootcamp.
+                Languages: Ruby on rails, HTML, CSS, Bootstrap",
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1675183908/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-31_a%CC%80_11.49.04_indmmx.png',
+  photo_url1: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1675183908/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-31_a%CC%80_11.50.30_em4xq8.png',
+  photo_url2: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1675183905/production/Portfolio/Capture_d_e%CC%81cran_le_2023-01-31_a%CC%80_11.50.48_zd0ish.png',
+  photo_url3: '',
+  photo_url4: '',
+)
+
+
 Project.create!(
   name: 'Colline Theater',
   genre: 'graphism',
