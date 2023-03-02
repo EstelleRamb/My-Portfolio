@@ -1,34 +1,39 @@
 
-<div class="container-projects-show">
-  <div class="infos">
-    <a href="<%=projects_path%>"><i class="fa-solid fa-arrow-left"></i></a>
-    <h2 id="title-project"><%= @project.name %></h2>
-    <br>
-    <p id="description"><%= @project.description %></p>
-    <% if @project.name == 'Groovy'%>
-      <a href="http://www.groovy.wiki/" target="_blank" class="link-project">Visitez l'application</a>
-    <% elsif @project.name == 'AirDreamNDream'  %>
-      <a href="https://airdreamndream.herokuapp.com/" target="_blank" class="link-project">Visitez l'application</a>
-    <% end %>
-    <% if @project.name == 'Movies List'  %>
-      <a href="https://movies-library.herokuapp.com/" target="_blank" class="link-project">Visitez l'application</a>
-    <% end %>
+<% if @project.name == 'Tetris'%>
+      <%= render 'tetris' %>
   </div>
-  <div class="all-card">
-    <div class="card project">
-      <%= image_tag(@project.photo_url) %>
+<% else %>
+  <div class="container-projects-show">
+    <div class="infos">
+      <a href="<%=projects_path%>"><i class="fa-solid fa-arrow-left"></i></a>
+      <h2 id="title-project"><%= @project.name %></h2>
+      <br>
+      <p id="description"><%= @project.description %></p>
+      <% if @project.name == 'Groovy'%>
+        <a href="http://www.groovy.wiki/" target="_blank" class="link-project">Visitez l'application</a>
+      <% elsif @project.name == 'AirDreamNDream'  %>
+        <a href="https://airdreamndream.herokuapp.com/" target="_blank" class="link-project">Visitez l'application</a>
+      <% end %>
+      <% if @project.name == 'Movies List'  %>
+        <a href="https://movies-library.herokuapp.com/" target="_blank" class="link-project">Visitez l'application</a>
+      <% end %>
     </div>
-    <div class="card project">
-      <%= image_tag(@project.photo_url1) %>
-    </div>
-    <div class="card project">
-      <%= image_tag(@project.photo_url2) %>
-    </div>
-    <div class="card project">
-      <%= image_tag(@project.photo_url3) %>
-    </div>
-    <div class="card project">
-      <%= image_tag(@project.photo_url4) %>
+    <div class="all-card">
+      <div class="card project">
+        <%= image_tag(@project.photo_url) %>
+      </div>
+      <div class="card project">
+        <%= image_tag(@project.photo_url1) %>
+      </div>
+      <div class="card project">
+        <%= image_tag(@project.photo_url2) %>
+      </div>
+      <div class="card project">
+        <%= image_tag(@project.photo_url3) %>
+      </div>
+      <div class="card project">
+        <%= image_tag(@project.photo_url4) %>
+      </div>
     </div>
   </div>
-</div>
+<% end %>

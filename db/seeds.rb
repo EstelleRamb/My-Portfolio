@@ -52,6 +52,17 @@ Project.create!(
   photo_url4: '',
 )
 
+Project.create!(
+  name: "Tetris",
+  genre: 'web',
+  description: "Tetris game",
+  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1677783905/production/Portfolio/Capture_d_e%CC%81cran_le_2023-03-02_a%CC%80_14.04.15_i7kv2c.png',
+  photo_url1: '',
+  photo_url2: '',
+  photo_url3: '',
+  photo_url4: '',
+)
+
 
 Project.create!(
   name: 'Colline Theater',
@@ -271,16 +282,7 @@ Project.create!(
   photo_url4: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1673998573/production/Portfolio/m%C3%A9moire-couverture_a5mvm1.jpg',
 )
 
-Project.create!(
-  name: "Tetris",
-  genre: 'web',
-  description: "Tetris game",
-  photo_url: 'https://res.cloudinary.com/dvw6upciw/image/upload/v1677783905/production/Portfolio/Capture_d_e%CC%81cran_le_2023-03-02_a%CC%80_14.04.15_i7kv2c.png',
-  photo_url1: '',
-  photo_url2: '',
-  photo_url3: '',
-  photo_url4: '',
-)
+
 
 
 puts "all done"
