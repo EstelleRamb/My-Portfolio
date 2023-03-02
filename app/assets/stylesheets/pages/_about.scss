@@ -45,3 +45,10 @@
   text-decoration: none;
   color: #e46939;
 }
+
+@media(max-width: 992px) {
+  .container-about{
+    display: flex;
+    flex-direction: column;
+  }
+}
