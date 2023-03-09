@@ -3,8 +3,18 @@
   <head>
     <title>MyPortfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio Estelle Rambur">
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+        <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Portfolio Estelle Rambur" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://estellerambur.herokuapp.com/"/>
+    <meta property="og:image" content="../assets/images/meta-tag-image.png" />
+    <meta property="og:description" content="Projects as a Web developper and  a Graphic designer" />
+    <meta property="og:site_name" content="Portfolio" />
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
