@@ -21,7 +21,7 @@
               <% end %>
               <span class = "title d-none position-absolute top-50 start-50 translate-middle"
                     data-card-target="titles">
-                    <%= project.name %></span>
+                    <%= link_to (project.name), project, class: "link" %></span>
           </div>
         </div>
       <% end %>

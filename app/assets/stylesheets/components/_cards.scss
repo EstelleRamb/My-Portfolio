@@ -45,6 +45,19 @@ div.card{
   top: 50%;
   width: 100%;
   text-align: center;
+
+}
+
+.link{
+  text-decoration: none !important;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: #b7efd1;
 }
 
 .card-index:hover .project_image{
