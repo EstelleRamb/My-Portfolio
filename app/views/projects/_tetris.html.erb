@@ -7,6 +7,9 @@
   <title>Tetris with Javascript</title>
 </head>
 <body>
+  <%# <div class="tetris-button"> %>
+    <button id="tetris-button" onClick="window.location.reload();">PLAY</button>
+  <%# </div> %>
   <canvas id="my-canvas"></canvas>
 </body>
 
@@ -25,7 +28,13 @@
 </style>
 
 <script>
-  let canvas;
+
+// const button = document.getElementById('tetris-button');
+// button.addEventListener('click' => {
+//   button.innerText = "Restart"
+// });
+
+let canvas;
 let ctx;
 let gBArrayHeight = 20; // Number of cells in array height
 let gBArrayWidth = 12; // Number of cells in array width
